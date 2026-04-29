@@ -1,0 +1,938 @@
+Microsoft Windows [Version 10.0.22621.1413]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP 840 G6>cd Desktop
+
+C:\Users\HP 840 G6\Desktop>mkdir my-git-project
+
+C:\Users\HP 840 G6\Desktop>cd my-git-project
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git init
+Initialized empty Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        linux-practical.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git add linux-practical.txt
+warning: in the working copy of 'linux-practical.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   linux-practical.txt
+
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Otutech
+'Otutech' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+
+C:\Users\HP 840 G6\Desktop\my-git-project>i insert the code
+'i' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>     git config --global user.email "primenextech@gmail.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git config --global user.name "Otutech"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+[master (root-commit) fbaa8b4] my first tiimethg
+ 1 file changed, 31 insertions(+)
+ create mode 100644 linux-practical.txt
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git remote add origin https://github.com/Otutech/first-git-project.git
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Otutech/first-git-project.git'
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+fatal: unable to access 'https://github.com/Otutech/first-git-project.git/': Could not resolve host: github.com
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 782 bytes | 111.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Otutech/first-git-project.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>git init
+Reinitialized existing Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Microsoft Windows [Version 10.0.22621.1413]
+'Microsoft' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>(c) Microsoft Corporation. All rights reserved.
+Microsoft was unexpected at this time.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6>cd Desktop
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop>mkdir my-git-project
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop>cd my-git-project
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git init
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Initialized empty Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+'Initialized' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>No commits yet
+'No' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Untracked files:
+'Untracked' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  (use "git add <file>..." to include in what will be committed)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>        linux-practical.txt
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>nothing added to commit but untracked files present (use "git add" to track)
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git add linux-practical.txt
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>warning: in the working copy of 'linux-practical.txt', LF will be replaced by CRLF the next time Git touches it
+'warning:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>No commits yet
+'No' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Changes to be committed:
+'Changes' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  (use "git rm --cached <file>..." to unstage)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>        new file:   linux-practical.txt
+'new' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>Otutech
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>'Otutech' is not recognized as an internal or external command,
+''Otutech'' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>i insert the code
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>'i' is not recognized as an internal or external command,
+''i'' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>     git config --global user.email "primenextech@gmail.com"
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git config --global user.name "Otutech"
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>[master (root-commit) fbaa8b4] my first tiimethg
+'[master' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> 1 file changed, 31 insertions(+)
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> create mode 100644 linux-practical.txt
+'create' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>nothing to commit, working tree clean
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git remote add origin https://github.com/Otutech/first-git-project.git
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin main
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>error: src refspec main does not match any
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>error: failed to push some refs to 'https://github.com/Otutech/first-git-project.git'
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to access 'https://github.com/Otutech/first-git-project.git/': Could not resolve host: github.com
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>info: please complete authentication in your browser...
+'info:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Enumerating objects: 3, done.
+'Enumerating' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Counting objects: 100% (3/3), done.
+'Counting' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Delta compression using up to 4 threads
+'Delta' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Compressing objects: 100% (2/2), done.
+'Compressing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Writing objects: 100% (3/3), 782 bytes | 111.00 KiB/s, done.
+'Writing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+'Total' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>To https://github.com/Otutech/first-git-project.git
+'To' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> * [new branch]      master -> master
+'*' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>branch 'master' set up to track 'origin/master'.
+'branch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git init
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Reinitialized existing Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+'Reinitialized' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>Microsoft Windows [Version 10.0.22621.1413]
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>(c) Microsoft Corporation. All rights reserved.
+Microsoft was unexpected at this time.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6>cd Desktop
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop>mkdir my-git-project
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop>cd my-git-project
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git init
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Initialized empty Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+'Initialized' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>No commits yet
+'No' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Untracked files:
+'Untracked' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  (use "git add <file>..." to include in what will be committed)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>        linux-practical.txt
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>nothing added to commit but untracked files present (use "git add" to track)
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git add linux-practical.txt
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>warning: in the working copy of 'linux-practical.txt', LF will be replaced by CRLF the next time Git touches it
+'warning:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>No commits yet
+'No' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Changes to be committed:
+'Changes' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  (use "git rm --cached <file>..." to unstage)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>        new file:   linux-practical.txt
+'new' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>Otutech
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>'Otutech' is not recognized as an internal or external command,
+''Otutech'' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.email "you@example.com"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>  git config --global user.name "Your Name"
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to auto-detect email address (got 'HP 840 G6@PRIME-NeXTECH.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>i insert the code
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>'i' is not recognized as an internal or external command,
+''i'' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>     git config --global user.email "primenextech@gmail.com"
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git config --global user.name "Otutech"
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git commit
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>[master (root-commit) fbaa8b4] my first tiimethg
+'[master' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> 1 file changed, 31 insertions(+)
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> create mode 100644 linux-practical.txt
+'create' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git status
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>On branch master
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>nothing to commit, working tree clean
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git remote add origin https://github.com/Otutech/first-git-project.git
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin main
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>error: src refspec main does not match any
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>error: failed to push some refs to 'https://github.com/Otutech/first-git-project.git'
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>fatal: unable to access 'https://github.com/Otutech/first-git-project.git/': Could not resolve host: github.com
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git push -u origin master
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>info: please complete authentication in your browser...
+'info:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Enumerating objects: 3, done.
+'Enumerating' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Counting objects: 100% (3/3), done.
+'Counting' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Delta compression using up to 4 threads
+'Delta' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Compressing objects: 100% (2/2), done.
+'Compressing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Writing objects: 100% (3/3), 782 bytes | 111.00 KiB/s, done.
+'Writing' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+'Total' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>To https://github.com/Otutech/first-git-project.git
+'To' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project> * [new branch]      master -> master
+'*' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>branch 'master' set up to track 'origin/master'.
+'branch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>git init
+'C:\Users\HP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>Reinitialized existing Git repository in C:/Users/HP 840 G6/Desktop/my-git-project/.git/
+'Reinitialized' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP 840 G6\Desktop\my-git-project>
+C:\Users\HP 840 G6\Desktop\my-git-project>C:\Users\HP 840 G6\Desktop\my-git-project>
