@@ -1,0 +1,31 @@
+-CD to desktop
+- Create a folder (folder_1)
+- Create another folder in this folder (folder_2)
+- Create a third folder on your desktop (folder_3)
+- Write a python file (includig=ng awesome code) in folder_2
+- Move this python file to folder_3
+- And copy the python file to your desktop
+- Run the python file
+- Delete the python file from folder_2
+- Delete folder_3, including the python file in that folder
+
+here is the corrections to the practical:
+use pwd
+cd /mnt/c/Users/User-name/Desktop/
+mkdir folder_1
+we can use cd folder_1/
+but let back out using cd ..
+instead use this: mkdir folder_1/folder_2
+now using ls you will see the folder_2
+now back out using cd ..
+and again use cd ..
+then, vim folder_1/folder_2/my_file.py to create a python file
+once the file is created type some quality code in there and save it using esc, wq
+now, move it from folder_2 to folder_3: mv folder_1/folder_2/my_file.py folder_3
+now, check it to make sure it is now in folder_3 by using ls: ls folder_3
+now try and copy it to desktop using: cp folder_3/my_file.py /mnt/c/Users/User-name/Desktop/
+then ls
+now run the python file from the desptop: python3 my_file.py
+the next things to do is to delete the files using: rm my_file.py
+and then delete folder_3 and what that is in it: rm -r folder_3, then ls
+remember that, we can also use tail to view what is in a txt file 
